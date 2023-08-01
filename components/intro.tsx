@@ -23,15 +23,13 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
-      <div className="absolute xl:flex xl:max-w-none -z-10 translate-y-[-20]">
-        <Image
-          src={"/bg-c.png"}
-          width={1200}
-          height={1000}
-          alt=""
-          className=""
-        />
-      </div>
+      <Image
+        src={"/bg.png"}
+        width={1200}
+        height={1000}
+        alt=""
+        className="hidden absolute xl:flex xl:max-w-none -z-10 inset-10  -translate-x-1/2 left-1/2"
+      />
       <div className="flex items-center justify-center"></div>
 
       <motion.h1
