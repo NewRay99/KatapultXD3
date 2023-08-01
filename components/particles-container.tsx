@@ -64,7 +64,7 @@ const ParticlesContainer = () => {
             enable: true,
           },
           move: {
-            directions: "none",
+            // directions: "none",
             enable: true,
             outModes: {
               default: "bounce",
