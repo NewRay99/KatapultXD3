@@ -35,50 +35,50 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Birmingham University Event",
+    location: "Birmingham, UK",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Star studed event with some of the heavy hitter in the business.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
+    title: "Birmingham Challenge",
     location: "Houston, TX",
     description:
-      "I'm now a full-stack developer working as a freelancer. Our stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Challenge yourself, try solving these problem and see where you rank amongst Bimringham top talent.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 Summer - TBA",
+  },
+  {
+    title: "Business Conference",
+    location: "Orlando, FL",
+    description:
+      "Meet leaders in business, build your network and learn from the best.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 Christmas - TBA",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Grassroots Projects",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "We engage with universities, colleges and schools to equip individuals the with skills, knowledge, and confidence needed to thrive in their personal and professional lives. ",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Corporate Engagements",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "At Katapult X, we believe in harnessing the power of collaboration to drive enduring and impactful change. Through strategic partnerships and collaborations with global companies, government bodies and research organisations, we aim to facilitate best practices and foster a culture of shared learning.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Entrepreneurship",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Equip small business and entrepreneurs with the requisite skills to be able to engage business clients effectively.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },

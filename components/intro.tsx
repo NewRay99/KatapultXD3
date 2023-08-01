@@ -28,7 +28,7 @@ export default function Intro() {
         width={1200}
         height={1000}
         alt=""
-        className="hidden absolute xl:flex xl:max-w-none -z-10 inset-10  -translate-x-1/2 left-1/2"
+        className="hidden absolute xl:flex xl:max-w-none -z-10 inset-5 -translate-x-1/2 left-1/2"
       />
       <div className="flex items-center justify-center"></div>
 
