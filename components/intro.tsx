@@ -23,41 +23,16 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
-      <div className="flex items-center justify-center">
-        <div className="absolute translate-y-[10%] z-[-1]">
-          {/* <motion.div
-            variants={fadeIn("up", 0.2)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            transition={{ duration: 1, ease: "easeInOut" }}
-          >
-            <Image
-              src="/zavatar.png"
-              alt="Child Prodigy portrait"
-              width="300"
-              height="300"
-              quality="95"
-              priority={true}
-              className="h-300 w-300 object-cover "
-            />
-          </motion.div> */}
-
-          {/* <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span> */}
-        </div>
+      <div className="absolute xl:flex xl:max-w-none -z-10 translate-y-[-20]">
+        <Image
+          src={"/bg-c.png"}
+          width={1200}
+          height={1000}
+          alt=""
+          className=""
+        />
       </div>
+      <div className="flex items-center justify-center"></div>
 
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
