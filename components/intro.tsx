@@ -23,8 +23,11 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[90%] text-center sm:mb-0 scroll-mt-[100rem]"
     >
+      <div className="absolute left-0 top-20 mix-blend-color-dodge z-10 w-[200px] xl:w-[400px] opacity-50">
+        <Image src="/monochrome-logo.svg" width={400} height={400} alt="" />
+      </div>
       <div className="md:flex items-center justify-center">
-        <div className="w-1/2 items-center justify-center">
+        <div className="md:w-1/2 items-center justify-center">
           <div>
             {/* title */}
 
@@ -87,7 +90,7 @@ export default function Intro() {
             </motion.div>
           </div>
         </div>
-        <div className="w-1/2 ">
+        <div className="hidden md:flex md:w-1/2 ">
           <img src={"/hero.png"} alt="" />
         </div>
       </div>
